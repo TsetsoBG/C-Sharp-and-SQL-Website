@@ -1,0 +1,416 @@
+﻿body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    margin: 0;
+}
+
+
+#f1DropDown, #f1TextBox, #f1Button, #f1Grid{
+    padding-top:20px;
+}
+
+#header {
+    background-image: url('../Images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border: 1px solid grey;
+}
+
+    #header h1 {
+        color: white;
+        float: left;
+        margin-top: 100px;
+        padding-left: 100px;
+        font-size: 55px;
+        text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    }
+
+#content_area {
+    margin: 60px 60px 120px 60px;
+    padding: 10px;
+}
+
+#storyColumn {
+    float: right;
+    padding-right: 100px;
+}
+
+    #storyColumn p {
+        padding-left: 10px;
+    }
+
+#socialLinks {
+    float: left;
+    padding-left: 100px;
+}
+
+#fb {
+    padding-left: 50px;
+}
+
+#footer {
+    background-color: #2f2f2f;
+    padding: 50px 0;
+    height: 100px;
+}
+
+.column {
+    min-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#footer h4 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding-left: 10px;
+}
+
+#footer p {
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: lightgray;
+    }
+
+#navigation {
+    background-color: dimgrey;
+    height: 50px;
+}
+
+
+
+
+
+.imgLeft {
+    float: left;
+    width: 240px;
+    height: 150px;
+    margin: 0px 10px 10px 0;
+    padding: 10px;
+}
+
+.imgRight {
+    float: right;
+    width: 200px;
+    height: 250px;
+    margin: 0px 0 10px 10px;
+    padding: 10px;
+}
+
+
+#content2 {
+    height: 500px;
+}
+
+
+#loginBody {
+    padding: 70px 70px 70px 70px;
+    margin: auto;
+    width: 350px;
+    height: 300px;
+    border: solid 1px;
+    background-color: dimgray;
+}
+
+#Member {
+    display: block;
+    list-style: none;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.9em;
+    color: white;
+    padding-left: 78px;
+    padding-bottom: 35px;
+}
+
+#Admin {
+    display: block;
+    list-style: none;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.9em;
+    color: white;
+    padding-left: 70px;
+    padding-bottom: 35px;
+}
+
+#MemberTitle {
+    display: block;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #1abc9c;
+    padding-left: 230px;
+    padding-bottom: 5px;
+}
+
+#search, #search2 {
+    padding-left: 280px;
+}
+
+#search2 {
+    padding-top: 100px;
+}
+
+
+#searchLabel, #searchLabel2, #result1, #result2 {
+    display: block;
+    list-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #1abc9c;
+    padding-bottom: 5px;
+}
+
+#result1, #result2 {
+    padding-top: 15px;
+}
+
+#table, #table2 {
+    padding-left: 280px;
+    padding-top: 20px;
+}
+
+#reserveTitle, #reserveTitle2 {
+    display: block;
+    list-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #1abc9c;
+    padding-bottom: 5px;
+    padding-left: 280px;
+    padding-top: 10px;
+}
+
+#membersMenu, #addeditMenu, #addeditDVD {
+    display: block;
+    list-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #1abc9c;
+    padding-bottom: 5px;
+    padding-left: 280px;
+    padding-top: 10px;
+}
+
+#title3, #title4, #title5, #title31, #title32 {
+    padding-top: 20px;
+}
+
+#title3, #title31, #title32 {
+    font-size: 25px;
+    padding-top: 30px !important;
+}
+
+#title41, #title4, #title42 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: red;
+}
+
+.labels {
+    padding-top: 15px;
+}
+
+#Label4{
+    color:red;
+}
+#reserveMenu, #reserveMenu2 {
+    padding-left: 280px;
+    display: block;
+    list-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #1abc9c;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#bookid, #dvdID {
+    padding-bottom: 5px;
+}
+
+
+#Username {
+    display: block;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: white;
+    padding-left: 95px;
+    padding-bottom: 5px;
+}
+
+#error {
+    display: block;
+    list-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: white;
+    padding-top: 15px;
+    padding-left: 70px;
+}
+
+#Password {
+    display: block;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: white;
+    padding-left: 95px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+#LoginButton {
+    display: block;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: white;
+    padding-top: 20px;
+    padding-left: 115px;
+}
+
+#textbox1 {
+    padding-left: 80px;
+}
+
+#textbox2 {
+    padding-left: 80px;
+}
+
+#button4, #button5 {
+    padding-top: 10px;
+    padding-left: 80px;
+}
+
+#button6, #button7 {
+    padding-left: 39px;
+}
+
+#textboxesMembers {
+    display: block;
+    position: relative;
+}
+
+#buttonMembersMenu, #buttonEditMenu, #buttonEditDVD {
+    padding-top: 15px;
+}
+
+#nav5{
+    padding-left:95px;
+    font-size:25px;
+}
+
+#nav5 ul li{
+    float:left;
+    list-style:none;
+
+}
+
+#nav5 ul li a{
+    padding: 7px 15px;
+    display:block;
+}
+
+#nav5 ul ul{
+    position:absolute;
+    left: -99999px;
+}
+
+#nav5 ul li:hover ul{
+    left:auto;
+}
+
+#nav5 ul{
+    padding:0;
+    margin:0;
+
+}
+
+#nav5 ul li ul li{
+    float:none;
+}
+
+#nav5 ul li a{
+    padding: 7px 15px;
+    display:block;
+    text-decoration:none;
+    color:white;
+
+}
+
+#nav5 ul li.borderless a{
+    border-right:none;
+}
+
+#nav5 ul li ul li a{
+    border-right:none;
+}
+
+#nav5 ul li a:hover{
+    background-color:grey;
+}
+
+#nav5 ul li a:hover, #nav ul li:hover a{
+    background-color:black;
+}
+
+#nav5 ul li:hover ul li a{
+    background-color:grey;
+}
+
+#nav5 ul li:hover ul li a:hover{
+    background-color:black;
+}
+
+#logL {
+    color: white;
+    float: right;
+    margin-top: 120px;
+    padding-right:80px;
+    font-size: 25px;
+    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+
+#f1error{
+    color:red;
+    padding-top:10px;
+}
+
+
+#f3ULabel{
+    padding-left:20px;
+    padding-right:20px;
+}

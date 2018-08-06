@@ -1,0 +1,92 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title> HRSC</title>
+    <link rel="stylesheet" type="text/css" href="CSS/StyleSheet.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id ="header">
+             <h1> HRSC Web Application</h1>
+            <asp:Label ID="logL" runat="server" Text=""></asp:Label>
+        </div>
+
+        <div id="navigation">
+    <div id="nav5">  
+        <ul>  
+            <li><a href="Default.aspx">Home</a></li>  
+            <li><a href="#">Function 1 - 3</a>
+                <ul>  
+                    <li><a href="Function1.aspx">Find Customer Info</a></li>  
+                    <li><a href="Function2.aspx">Find Order Info</a></li>  
+                    <li><a href="Function3User.aspx">Update Password / Details</a></li>  
+                </ul>  
+            </li>  
+            <li><a href="#">Function 4 - 7</a>
+                <ul>  
+                    <li><a href="Function4.aspx">Find Customers Orders By Product</a></li>  
+                    <li><a href="Function5.aspx">Customers without Orders in the last year</a></li>  
+                    <li><a href="Function6.aspx">Find Product Recent Purchases</a></li>  
+                    <li><a href="Function7.aspx">List of Suppliers and their Products</a></li> 
+                </ul>  
+                </li>
+            <li><a href="#">Function 8 - 10</a>
+                <ul>  
+                    <li><a href="Function8.aspx">List of Undelivered orders</a></li>  
+                    <li><a href="Function9.aspx">More than 1 Year Old Undelivered Orders</a></li>  
+                    <li><a href="Function10.aspx">Sales Rep Information</a></li>  
+                </ul>  
+             </li>
+            <li><a href="#">Database Management</a>
+                <ul>  
+                    <li><a href="Function11Corder.aspx">Corder Table</a></li>  
+                    <li><a href="Function11Customer.aspx">Customer Table</a></li>  
+                    <li><a href="Function11Depot.aspx">Depot Table</a></li> 
+                    <li><a href="Function11Oline.aspx">Oline Table</a></li>
+                    <li><a href="Function11Product.aspx">Product Table</a></li>
+                    <li><a href="Function11SalesRep.aspx">SalesRep Table</a></li>
+                    <li><a href="Function11Stock.aspx">Stock Table</a></li>
+                    <li><a href="Function11Supplier.aspx">Supplier Table</a></li>
+                </ul>  
+             </li>
+            <li><a href="#">Function 12 - 15</a> 
+                <ul>  
+                    <li><a href="Function12.aspx">Depot Value</a></li>  
+                    <li><a href="Function13.aspx">Depots and their stock value</a></li>  
+                    <li><a href="Function14.aspx">Order Invoice</a></li>  
+                    <li><a href="Function15.aspx">Suppliers and money produced by their items</a></li>  
+                </ul>    
+             </li>  
+        </ul>  
+    </div> 
+        </div>
+
+
+         <div id="content_area">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div id="footer">
+            <div class="container">
+                <div class="column" id="socialLinks">
+                    <h4>Extra Links</h4>
+                    <p>
+                        <a href="#">Footer Link</a>                         
+                        <a id="fb" href="#">Footer Link 2</a>
+
+                    </p>
+                </div>
+                <div class="column" id="storyColumn">
+                    <h4>HRSC</h4>
+                    <p>Welcome to HRSC Web Application <br />please test all of our functions<br />for some of them you need to be logged in.</p>
+                </div>
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>
